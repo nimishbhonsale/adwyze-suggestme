@@ -1,0 +1,9 @@
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\obj\Debug\Adwyze.LastFm.Client.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\Adwyze.LastFm.Client.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\Adwyze.LastFm.Client.pdb
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\Adwyze.LastFm.Client.Contracts.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\RestSharp.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\Adwyze.LastFm.Client.Contracts.pdb
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\bin\Debug\RestSharp.xml
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\obj\Debug\Adwyze.LastFm.Client.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client\obj\Debug\Adwyze.LastFm.Client.pdb

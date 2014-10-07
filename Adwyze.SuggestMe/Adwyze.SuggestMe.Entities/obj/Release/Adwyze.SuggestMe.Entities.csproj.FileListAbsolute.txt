@@ -1,0 +1,6 @@
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Release\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Release\Adwyze.SuggestMe.Entities.pdb
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Release\dotLastFm.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Release\RestSharp.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.pdb

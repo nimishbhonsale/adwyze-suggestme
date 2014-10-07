@@ -1,0 +1,5 @@
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client.Contracts\bin\Debug\Adwyze.LastFm.Client.Contracts.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client.Contracts\bin\Debug\Adwyze.LastFm.Client.Contracts.pdb
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client.Contracts\obj\Debug\Adwyze.LastFm.Client.Contracts.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client.Contracts\obj\Debug\Adwyze.LastFm.Client.Contracts.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\Adwyze.LastFm.Client.Contracts\obj\Debug\Adwyze.LastFm.Client.Contracts.pdb

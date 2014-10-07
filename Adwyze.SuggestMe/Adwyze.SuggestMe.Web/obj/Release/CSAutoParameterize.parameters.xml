@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Mapping-Web.config Connection String" description="Mapping Connection String used in web.config by the application to access the database." defaultValue="data source=vp2cclb4aa.database.windows.net;initial catalog=suggestme;integrated security=False;uid=Nimish;pwd=Password@123;timeout=100000;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Personal\\Interviews\\Adwyze\\Spikes\\FacebookAuth\\FacebookAuth\\FacebookAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Mapping']/@connectionString" />
+  </parameter>
+</parameters>

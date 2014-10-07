@@ -1,0 +1,10 @@
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\LastFmConsumerSpike.exe.config
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\LastFmConsumerSpike.exe
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\LastFmConsumerSpike.pdb
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\Newtonsoft.Json.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\RestSharp.dll
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\Newtonsoft.Json.xml
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.exe
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.pdb
+D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\dotLastFm.dll

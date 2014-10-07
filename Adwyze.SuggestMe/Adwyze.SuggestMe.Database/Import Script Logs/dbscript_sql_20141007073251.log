@@ -1,0 +1,10 @@
+10/7/2014 1:02:51 PM	This log contains information about the import operation of the script 'dbscript.sql' into project 'Adwyze.SuggestMe.Database' on computer 'NIMISHWORKHORSE' by user'Nimish.
+10/7/2014 1:02:51 PM	Started importing file: D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\dbscript\dbscript.sql 
+10/7/2014 1:02:51 PM	File name D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\dbscript\dbscript.sql (size: 7996)
+10/7/2014 1:02:51 PM	Parsing import script
+10/7/2014 1:02:51 PM	Total number of batches in script: 1
+10/7/2014 1:02:51 PM	Total number of statements in script: 0
+10/7/2014 1:02:51 PM	The script was successfully imported into the project.
+10/7/2014 1:02:51 PM	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+10/7/2014 1:02:51 PM	A summary of the import was saved to the following location: D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\Import Script Logs\dbscript_sql_20141007073251.log
+10/7/2014 1:02:51 PM	Click Finish to continue...

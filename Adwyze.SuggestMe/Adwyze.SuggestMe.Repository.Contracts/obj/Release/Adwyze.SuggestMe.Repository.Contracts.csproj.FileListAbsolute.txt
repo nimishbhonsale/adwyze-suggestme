@@ -1,0 +1,9 @@
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\Adwyze.SuggestMe.Repository.Contracts.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\Adwyze.SuggestMe.Repository.Contracts.pdb
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\dotLastFm.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\RestSharp.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\bin\Release\Adwyze.SuggestMe.Entities.pdb
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\obj\Release\Adwyze.SuggestMe.Repository.Contracts.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\obj\Release\Adwyze.SuggestMe.Repository.Contracts.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Repository.Contracts\obj\Release\Adwyze.SuggestMe.Repository.Contracts.pdb

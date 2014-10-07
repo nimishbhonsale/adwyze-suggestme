@@ -1,0 +1,7 @@
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Debug\Adwyze.SuggestMe.Entities.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Debug\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Debug\Adwyze.SuggestMe.Entities.pdb
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Debug\dotLastFm.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Debug\RestSharp.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Debug\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Debug\Adwyze.SuggestMe.Entities.pdb

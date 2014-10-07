@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.SuggestMe", "Adwyze.SuggestMe.Web\Adwyze.SuggestMe.csproj", "{0F77A47B-714E-45B8-B902-3D63D1BBE275}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6A09D889-07E3-4452-8A56-373C6835BA51}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.SuggestMe.Repository.Mongo", "Adwyze.SuggestMe.Repository.Mongo\Adwyze.SuggestMe.Repository.Mongo.csproj", "{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.SuggestMe.Repository.Contracts", "Adwyze.SuggestMe.Repository.Contracts\Adwyze.SuggestMe.Repository.Contracts.csproj", "{18FC1EB6-B51E-4559-A044-F40161A99D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.SuggestMe.Entities", "Adwyze.SuggestMe.Entities\Adwyze.SuggestMe.Entities.csproj", "{84FBC16D-5D67-4513-94AD-07CFC8E04CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.SuggestMe.Repository.SqlServer", "Adwyze.SuggestMe.Repository.SqlServer\Adwyze.SuggestMe.Repository.SqlServer.csproj", "{3D709208-B71B-451C-A582-BB719C20EFED}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Adwyze.SuggestMe.Database", "Adwyze.SuggestMe.Database\Adwyze.SuggestMe.Database.sqlproj", "{D367F1DB-8454-42A0-9F83-3D4745D4EB86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0089447D-3D88-4487-9069-48B99364BCD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5133023C-8C1D-49FD-A225-EC3C9958528D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{A9BF010F-E74B-4355-B88C-9A31C08945B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dto", "Dto", "{DD22097C-2610-4D2D-8DAC-C1CB3992510F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7EF5E8D0-EAF9-4321-8C36-639FC22E6F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{359ACEBC-6696-48B6-9124-6696B0948AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{A8DB8E47-2133-4E91-8105-DBA8B105CF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{273CD7CB-1DD9-4DCF-8F7D-09CC2AB1A879}"
+	ProjectSection(SolutionItems) = preProject
+		Adwyze.SuggestMe.Diagrams\CodeMap.dgml = Adwyze.SuggestMe.Diagrams\CodeMap.dgml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F77A47B-714E-45B8-B902-3D63D1BBE275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F77A47B-714E-45B8-B902-3D63D1BBE275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F77A47B-714E-45B8-B902-3D63D1BBE275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F77A47B-714E-45B8-B902-3D63D1BBE275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FC1EB6-B51E-4559-A044-F40161A99D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FC1EB6-B51E-4559-A044-F40161A99D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FC1EB6-B51E-4559-A044-F40161A99D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FC1EB6-B51E-4559-A044-F40161A99D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84FBC16D-5D67-4513-94AD-07CFC8E04CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84FBC16D-5D67-4513-94AD-07CFC8E04CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84FBC16D-5D67-4513-94AD-07CFC8E04CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84FBC16D-5D67-4513-94AD-07CFC8E04CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D709208-B71B-451C-A582-BB719C20EFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D709208-B71B-451C-A582-BB719C20EFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D709208-B71B-451C-A582-BB719C20EFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D709208-B71B-451C-A582-BB719C20EFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F77A47B-714E-45B8-B902-3D63D1BBE275} = {5133023C-8C1D-49FD-A225-EC3C9958528D}
+		{D9F5ADCB-0D78-4BC4-B8F8-4EFB25F06B4B} = {A9BF010F-E74B-4355-B88C-9A31C08945B7}
+		{18FC1EB6-B51E-4559-A044-F40161A99D71} = {A9BF010F-E74B-4355-B88C-9A31C08945B7}
+		{84FBC16D-5D67-4513-94AD-07CFC8E04CB2} = {DD22097C-2610-4D2D-8DAC-C1CB3992510F}
+		{3D709208-B71B-451C-A582-BB719C20EFED} = {A9BF010F-E74B-4355-B88C-9A31C08945B7}
+		{D367F1DB-8454-42A0-9F83-3D4745D4EB86} = {0089447D-3D88-4487-9069-48B99364BCD4}
+		{359ACEBC-6696-48B6-9124-6696B0948AB2} = {7EF5E8D0-EAF9-4321-8C36-639FC22E6F38}
+		{A8DB8E47-2133-4E91-8105-DBA8B105CF01} = {7EF5E8D0-EAF9-4321-8C36-639FC22E6F38}
+	EndGlobalSection
+EndGlobal

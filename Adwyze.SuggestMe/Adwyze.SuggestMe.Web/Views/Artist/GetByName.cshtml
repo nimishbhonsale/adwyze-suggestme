@@ -1,0 +1,44 @@
+﻿@using DotLastFm.Models
+@model Adwyze.SuggestMe.Entities.Artist.Artist
+@{
+    ViewBag.Title = @Model.ArtistDetails.Name;
+    var thumb = @Model.ArtistDetails.Images.First(x => x.Size == ImageSize.ExtraLarge);
+}
+<a href="@Url.Action("Login","Home")"><img src="~/Content/images/logo.png" style="height:20px;width:80px;"></a>&nbsp;&nbsp;
+<a href="@Url.Action("Login","Home")" style="float:right;"><< Back to Search </a><br />
+<a href="#" style="margin-right:10px; left:0;float:left;"><img src="@thumb.Value" style="width:200px;height:200px" /></a>
+<h2 style="position:relative;vertical-align: bottom;">
+    @Model.ArtistDetails.Name
+    <span style="float:right;font-size:12px;vertical-align: bottom;bottom:0;"> Listeners: @Model.ArtistDetails.Stats.Listeners | Play: @Model.ArtistDetails.Stats.PlayCount </span>
+</h2>
+<div style="font-size:12px;float:right;margin-top:-20px;">
+    Tags:
+    @foreach (var tag in @Model.ArtistDetails.Tags)
+    {
+        <a href="@tag.Url">@tag.Name</a>
+    }
+</div>
+
+<br />
+<div style="margin-left:10px;min-height:120px;text-align: justify;">@Html.Raw(@Model.ArtistDetails.Bio.Summary)</div>
+
+<h4>Tracks <span style="font-size:12px;">(top 15 by popularity)</span></h4>
+<div style="height:60px;">
+
+    @foreach (var track in @Model.Tracks)
+    {
+        <a href="@track.Url">@track.Name (@track.Duration)</a> <span> | </span>
+    }
+    <a href="#">more ...</a>
+</div>
+
+<h4>Similar Artists</h4>
+@foreach (var artist in @Model.ArtistDetails.SimilarArtists)
+{
+    <div style="margin-left:5px; position:relative;height:150px;float:left;width:100px;">
+        <a href="@Url.Action("GetByName", "Artist", new { name = @artist.Name })" style="top:0">
+            <img src="@artist.Images.First().Value" style="width:60px;height:60px" />
+        </a>
+        <div style="top:65px;font-size:12px;">@artist.Name</div>
+    </div>
+}

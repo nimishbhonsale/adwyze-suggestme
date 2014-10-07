@@ -1,0 +1,26 @@
+﻿
+@model IList<Adwyze.SuggestMe.Entities.History.History>
+           
+@{
+    ViewBag.Title = "Search History";
+}
+<a href="@Url.Action("Home","Login")"></a><img src="~/Content/images/logo.png" style="height:20px;width:80px;"><br/>
+
+<h3>Search History 
+    @if (@Model != null && @Model.Count > 0)
+    {
+        <span style="font-size: 12px;margin-left:10px;">(Last updated on: @Model.Max(x => x.SearchDate))</span>
+    }
+</h3>
+
+@if (@Model != null && @Model.Count > 0)
+{
+    foreach (var item in @Model.OrderByDescending(x => x.SearchDate))
+    {
+        <div><a href="@Url.Action("GetByName", "Artist", new {name = @item.Keyword})">@item.Keyword (on @item.SearchDate.ToString("dd-MMM-yyyy hh:mm:ss"))</a></div>
+    }
+}
+else
+{
+    <div>No search history found.</div>
+}
