@@ -8,8 +8,16 @@ using System.Collections.Generic;
 
 namespace Adwyze.SuggestMe.Repository.SqlServer.Search
 {
+    /// <summary>
+    /// Search repository for sql server
+    /// </summary>
     public class SearchHistoryRepository : ISearchHistoryRepository
     {
+        /// <summary>
+        /// Gets the history for user
+        /// </summary>
+        /// <param name="user">User dto</param>
+        /// <returns>History records corresponding to the user</returns>
         public IList<History> GetHistoryForUser(DomainUser user)
         {
             var histories = new List<History>();
@@ -35,6 +43,11 @@ namespace Adwyze.SuggestMe.Repository.SqlServer.Search
             return histories;
         }
 
+        /// <summary>
+        /// Adds history record for the user
+        /// </summary>
+        /// <param name="user">User dto</param>
+        /// <param name="history">History record</param>
         public void AddHistoryForUser(DomainUser user, History history)
         {
             using (var db = new Mapping.Mapping())

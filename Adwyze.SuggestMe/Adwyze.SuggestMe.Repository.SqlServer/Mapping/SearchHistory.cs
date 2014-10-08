@@ -4,7 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Adwyze.SuggestMe.Repository.SqlServer.Mapping
 {
-
+    /// <summary>
+    /// POCO Search Hisotry class
+    /// </summary>
     [Table("SearchHistory")]
     public partial class SearchHistory
     {

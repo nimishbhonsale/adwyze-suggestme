@@ -4,3 +4,9 @@ D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\bin\Release\RestSharp.dll
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.dll
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.pdb
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\bin\Release\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\bin\Release\Adwyze.SuggestMe.Entities.pdb
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\bin\Release\RestSharp.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.csprojResolveAssemblyReference.cache
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Entities\obj\Release\Adwyze.SuggestMe.Entities.pdb

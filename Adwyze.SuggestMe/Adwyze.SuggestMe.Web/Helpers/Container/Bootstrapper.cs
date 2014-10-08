@@ -15,21 +15,33 @@ using Microsoft.Practices.Unity;
 
 namespace Adwyze.SuggestMe.Helpers.Container
 {
+    /// <summary>
+    /// Wrapper over the Unity IoC container
+    /// </summary>
     public class Bootstrapper
     {
+        /// <summary>
+        /// Provides intiial setup for registering the abstractions with concretes and manages its lifetime
+        /// </summary>
+        /// <returns></returns>
         public static IUnityContainer Setup()
         {
+            // Instantiate Unity container
             var container = new UnityContainer();
-            container.RegisterType<ILastFmConfig, LastFmConfig>();
 
+            // Register Last Fm Service and config.
+            container.RegisterType<ILastFmConfig, LastFmConfig>();
+            container.RegisterType<ILastFmService, LastFmService>();
+
+            // Regsitration in case the provider is mongo
             if (ConfigurationManager.AppSettings["Provider"] == ((int)DbProvider.Mongo).ToString(CultureInfo.InvariantCulture))
             {
                 container.RegisterType<ISearchHistoryRepository, SearchHistoryRepository>();
                 container.RegisterType<IUserRepository, UserRepository>();
                 container.RegisterType<IConnectionManager, MongoConnectionManager>();
-                container.RegisterType<ILastFmService, LastFmService>();
             }
 
+            // Regsitration in case the provider is sql server
             if (ConfigurationManager.AppSettings["Provider"] == ((int)DbProvider.SqlServer).ToString(CultureInfo.InvariantCulture))
             {
                 container.RegisterType<ISearchHistoryRepository, Repository.SqlServer.Search.SearchHistoryRepository>();
@@ -37,13 +49,19 @@ namespace Adwyze.SuggestMe.Helpers.Container
                 container.RegisterType<IConnectionManager, SqlServerConnectionManager>();
             }
 
+            // Register controllers
             container.RegisterType<IController, HomeController>("Home");
             container.RegisterType<IController, ArtistController>("Artist");
             container.RegisterType<IController, HistoryController>("History");
+
+            // Set container
             Container = container;
             return container;
         }
 
+        /// <summary>
+        /// Instance of the Unity container
+        /// </summary>
         public static UnityContainer Container { get; set; }
     }
 }

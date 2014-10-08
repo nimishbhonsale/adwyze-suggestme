@@ -8,6 +8,9 @@ using Adwyze.SuggestMe.Repository.Contracts.User;
 
 namespace Adwyze.SuggestMe.Repository.Mongo.User
 {
+    /// <summary>
+    /// User repository for mongo
+    /// </summary>
     public class UserRepository : IUserRepository
     {
         
@@ -18,11 +21,20 @@ namespace Adwyze.SuggestMe.Repository.Mongo.User
             _connectionManager = connectionManager;
         }
 
+        /// <summary>
+        /// Get user coreesponding to the id
+        /// </summary>
+        /// <param name="userid">User identifier</param>
+        /// <returns>User</returns>
         public DomainUser Get(string userid)
         {
             return new DomainUser{UserId = userid};
         }
 
+        /// <summary>
+        /// Saves the user to persistence store
+        /// </summary>
+        /// <param name="user">User</param>
         public void Save(DomainUser user)
         {
             var connectionString = _connectionManager.GetConnectionString();

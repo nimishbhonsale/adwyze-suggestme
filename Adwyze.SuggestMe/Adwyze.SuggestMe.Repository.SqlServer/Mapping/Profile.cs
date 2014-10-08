@@ -5,6 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Adwyze.SuggestMe.Repository.SqlServer.Mapping
 {
+
+    /// <summary>
+    /// POCO Profile class
+    /// </summary>
     [Table("Profile")]
     public partial class Profile
     {

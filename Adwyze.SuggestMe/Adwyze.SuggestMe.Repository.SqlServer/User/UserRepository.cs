@@ -5,8 +5,16 @@ using Adwyze.SuggestMe.Repository.SqlServer.Mapping;
 
 namespace Adwyze.SuggestMe.Repository.SqlServer.User
 {
+    /// <summary>
+    /// User repository for sql server
+    /// </summary>
     public class UserRepository: IUserRepository
     {
+        /// <summary>
+        /// Get user coreesponding to the id
+        /// </summary>
+        /// <param name="userid">User identifier</param>
+        /// <returns>User</returns>
         public Entities.User.User Get(string userid)
         {
             var user = new Entities.User.User();
@@ -23,6 +31,10 @@ namespace Adwyze.SuggestMe.Repository.SqlServer.User
             return user;
         }
 
+        /// <summary>
+        /// Saves the user to persistence store
+        /// </summary>
+        /// <param name="user">User</param>
         public void Save(Entities.User.User user)
         {
             using (var db = new Mapping.Mapping())

@@ -2,6 +2,9 @@ using System.Data.Entity;
 
 namespace Adwyze.SuggestMe.Repository.SqlServer.Mapping
 {
+    /// <summary>
+    /// ORM mapping class
+    /// </summary>
     public partial class Mapping : DbContext
     {
         public Mapping()

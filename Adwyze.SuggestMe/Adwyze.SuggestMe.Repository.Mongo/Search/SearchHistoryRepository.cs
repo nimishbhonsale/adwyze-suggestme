@@ -10,6 +10,9 @@ using DomainUser = Adwyze.SuggestMe.Entities.User.User;
 
 namespace Adwyze.SuggestMe.Repository.Mongo.Search
 {
+    /// <summary>
+    /// Search repository for mongo
+    /// </summary>
     public class SearchHistoryRepository : ISearchHistoryRepository
     {
         private readonly IConnectionManager _connectionManager;
@@ -19,6 +22,11 @@ namespace Adwyze.SuggestMe.Repository.Mongo.Search
             _connectionManager = connectionManager;
         }
 
+        /// <summary>
+        /// Gets the history for user
+        /// </summary>
+        /// <param name="user">User dto</param>
+        /// <returns>History records corresponding to the user</returns>
         public IList<History> GetHistoryForUser(DomainUser user)
         {
             var histories = new List<History>();
@@ -45,7 +53,11 @@ namespace Adwyze.SuggestMe.Repository.Mongo.Search
             return histories;
         }
 
-
+        /// <summary>
+        /// Adds history record for the user
+        /// </summary>
+        /// <param name="user">User dto</param>
+        /// <param name="history">History record</param>
         public void AddHistoryForUser(DomainUser user, History history)
         {
             var connectionString = _connectionManager.GetConnectionString();
