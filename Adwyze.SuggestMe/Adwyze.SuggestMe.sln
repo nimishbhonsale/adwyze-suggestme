@@ -40,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{27
 		Adwyze.SuggestMe.Diagrams\CodeMap.dgml = Adwyze.SuggestMe.Diagrams\CodeMap.dgml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adwyze.Suggestme.Web.UnitTests", "Adwyze.Suggestme.Web.UnitTests\Adwyze.Suggestme.Web.UnitTests.csproj", "{FF518917-8214-4155-92F8-B46F02302F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D367F1DB-8454-42A0-9F83-3D4745D4EB86}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF518917-8214-4155-92F8-B46F02302F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF518917-8214-4155-92F8-B46F02302F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF518917-8214-4155-92F8-B46F02302F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF518917-8214-4155-92F8-B46F02302F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,5 +91,6 @@ Global
 		{D367F1DB-8454-42A0-9F83-3D4745D4EB86} = {0089447D-3D88-4487-9069-48B99364BCD4}
 		{359ACEBC-6696-48B6-9124-6696B0948AB2} = {7EF5E8D0-EAF9-4321-8C36-639FC22E6F38}
 		{A8DB8E47-2133-4E91-8105-DBA8B105CF01} = {7EF5E8D0-EAF9-4321-8C36-639FC22E6F38}
+		{FF518917-8214-4155-92F8-B46F02302F90} = {359ACEBC-6696-48B6-9124-6696B0948AB2}
 	EndGlobalSection
 EndGlobal

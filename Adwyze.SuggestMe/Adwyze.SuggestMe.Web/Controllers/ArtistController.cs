@@ -1,12 +1,11 @@
 ﻿using System.Web.Mvc;
-using Adwyze.SuggestMe.Entities.Artist;
+using Adwyze.SuggestMe.Controllers.Abstraction;
 using Adwyze.SuggestMe.Entities.History;
 using Adwyze.SuggestMe.Entities.User;
 using Adwyze.SuggestMe.Helpers.Container;
 using Adwyze.SuggestMe.Repository.Contracts.Search;
 using Adwyze.SuggestMe.Repository.Contracts.User;
-using DotLastFm;
-using DotLastFm.Api;
+using Adwyze.SuggestMe.Services;
 using Microsoft.Practices.Unity;
 
 namespace Adwyze.SuggestMe.Controllers
@@ -15,19 +14,19 @@ namespace Adwyze.SuggestMe.Controllers
     {
         private readonly ISearchHistoryRepository _searchHistoryRepository;
         private readonly IUserRepository _userRepository;
-        private readonly ILastFmConfig _config;
+        private readonly ILastFmService _lastFmService;
 
         public ArtistController()
         {
             _searchHistoryRepository = Bootstrapper.Container.Resolve <ISearchHistoryRepository>();
             _userRepository = Bootstrapper.Container.Resolve<IUserRepository>();
-            _config = Bootstrapper.Container.Resolve<ILastFmConfig>();
+            
         }
-        public ArtistController(ISearchHistoryRepository searchHistoryRepository, ILastFmConfig config, IUserRepository userRepository)
+        public ArtistController(ISearchHistoryRepository searchHistoryRepository, ILastFmService lastFmService, IUserRepository userRepository)
         {
             _searchHistoryRepository = searchHistoryRepository;
             _userRepository = userRepository;
-            _config = config;
+            _lastFmService = lastFmService;
         }
 
         // GET: Artist by name
@@ -44,17 +43,8 @@ namespace Adwyze.SuggestMe.Controllers
                 _userRepository.Save(user);
                 _searchHistoryRepository.AddHistoryForUser(user, history);
             }
-
-            var lastFmApi = new LastFmApi(_config);
-            var artistWithDetails = lastFmApi.Artist.GetInfo(name);
-            var tracksForArtist = lastFmApi.Artist.GetTopTracks(artistWithDetails.Name, page, 15);
-            var model = new Artist { ArtistDetails = artistWithDetails, Tracks = tracksForArtist };
+            var model = _lastFmService.GetArtistByName(name);
             return View(model);
         }
-    }
-
-    public interface IArtistController
-    {
-        ActionResult GetByName(string name, int page = 1);
     }
 }

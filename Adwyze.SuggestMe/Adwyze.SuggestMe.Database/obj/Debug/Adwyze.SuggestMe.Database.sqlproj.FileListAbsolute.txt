@@ -3,3 +3,8 @@ D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\bin\Debug\Adwyze.SuggestMe.Database.pdb
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\obj\Debug\Adwyze.SuggestMe.Database.dll
 D:\Personal\Interviews\Adwyze\Spikes\FacebookAuth\FacebookAuth\Adwyze.SuggestMe.Database\obj\Debug\Adwyze.SuggestMe.Database.pdb
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Database\bin\Debug\Adwyze.SuggestMe.Database.dacpac
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Database\bin\Debug\Adwyze.SuggestMe.Database.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Database\bin\Debug\Adwyze.SuggestMe.Database.pdb
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Database\obj\Debug\Adwyze.SuggestMe.Database.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Adwyze.SuggestMe\Adwyze.SuggestMe.Database\obj\Debug\Adwyze.SuggestMe.Database.pdb

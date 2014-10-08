@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
+using Adwyze.SuggestMe.Controllers.Abstraction;
 using Adwyze.SuggestMe.Entities.User;
 using Adwyze.SuggestMe.Helpers.Container;
 using Adwyze.SuggestMe.Repository.Contracts.Search;
@@ -29,10 +30,5 @@ namespace Adwyze.SuggestMe.Controllers
             }
             return RedirectToAction("Login", "Home");
         }
-    }
-
-    public interface IHistoryController
-    {
-        ActionResult Get();
     }
 }

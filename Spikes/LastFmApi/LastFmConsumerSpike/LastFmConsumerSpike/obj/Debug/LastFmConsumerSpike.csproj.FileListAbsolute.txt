@@ -8,3 +8,6 @@ D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsume
 D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.exe
 D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.pdb
 D:\Personal\Interviews\Adwyze\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\dotLastFm.dll
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\bin\Debug\LastFmConsumerSpike.exe.config
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.exe
+D:\Personal\Interviews\Adwyze\adwyze-suggestme\Spikes\LastFmApi\LastFmConsumerSpike\LastFmConsumerSpike\obj\Debug\LastFmConsumerSpike.pdb

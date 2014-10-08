@@ -9,6 +9,7 @@ using Adwyze.SuggestMe.Repository.Contracts.Search;
 using Adwyze.SuggestMe.Repository.Contracts.User;
 using Adwyze.SuggestMe.Repository.Mongo.Search;
 using Adwyze.SuggestMe.Repository.Mongo.User;
+using Adwyze.SuggestMe.Services;
 using DotLastFm.Api;
 using Microsoft.Practices.Unity;
 
@@ -26,6 +27,7 @@ namespace Adwyze.SuggestMe.Helpers.Container
                 container.RegisterType<ISearchHistoryRepository, SearchHistoryRepository>();
                 container.RegisterType<IUserRepository, UserRepository>();
                 container.RegisterType<IConnectionManager, MongoConnectionManager>();
+                container.RegisterType<ILastFmService, LastFmService>();
             }
 
             if (ConfigurationManager.AppSettings["Provider"] == ((int)DbProvider.SqlServer).ToString(CultureInfo.InvariantCulture))

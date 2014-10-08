@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using Adwyze.SuggestMe.Controllers.Abstraction;
 using Adwyze.SuggestMe.Entities.User;
 using Adwyze.SuggestMe.Helpers.Container;
 using Adwyze.SuggestMe.Repository.Contracts.User;
@@ -8,11 +9,11 @@ namespace Adwyze.SuggestMe.Controllers
 {
     public class HomeController : Controller, IHomeController
     {
-        private readonly IUserRepository _userRepository;
+        public IUserRepository UserRepository { get; private set; }
 
         public HomeController()
         {
-            _userRepository = Bootstrapper.Container.Resolve<IUserRepository>();
+            UserRepository = Bootstrapper.Container.Resolve<IUserRepository>();
         }
 
         // GET: Home page
@@ -24,24 +25,19 @@ namespace Adwyze.SuggestMe.Controllers
         [HttpPost]
         public JsonResult Save(string userId)
         {
+            if (Session!=null)
             Session["UserId"] = userId;
             var user = new User { UserId = userId };
-            _userRepository.Save(user);
+            UserRepository.Save(user);
             return Json(new { sessionid = userId});
         }
 
         [HttpPost]
         public JsonResult Logout()
         {
+            if (Session != null)
             Session["UserId"] = null;
             return Json(new { sessionid = string.Empty });
         }
-    }
-
-    public interface IHomeController
-    {
-        ActionResult Login();
-        JsonResult Save(string userId);
-        JsonResult Logout();
     }
 }
